@@ -7,3 +7,4 @@ This is my project to accomplish the last task in a basic course in event IDCamp
   Note:
   1. I use chatgpt when I need to ask reference or facing a problem with my code in order to makes it seems more nice to see in my eyes first, especially to others that can see this project
   2. I am feel pleasure if there is a criticsm or suggestion to this project or for me. 
+  3. I use JQuery for smooth navbar scroll and for the aside part that inside of it there are image and table
