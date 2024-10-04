@@ -1,6 +1,6 @@
 # Profile-page-Johan-Liebert
 
-This is my project to accomplish the last task in a course in event IDCamp X Dicoding
+This is my project to accomplish the last task in a basic course in event IDCamp X Dicoding
   I use basic web programming language like HTML, CSS, and Javascript. And additionally I use JQuery for interactivity and much more simpler than vanilla javascript, It's just a beginner project,
   please don't judge me or hate me so hard, I just want to learn with joy, tysm.
 
