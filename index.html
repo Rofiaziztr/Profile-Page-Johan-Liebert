@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Johan</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          class="logo"
+          src="img\logo_monster.png"
+          width="48px"
+          alt="Monster"
+        />
+      </div>
+
+      <div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#lore">Lore</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#quote">Quote</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </header>
+
+    <main>
+      <article>
+        <section class="item">
+          <h1 id="lore">Lore of Johan Liebert: </h1>
+          <img class="section-image" src="img\johan_lore.PNG" alt="" />
+          <p>
+            Johan Liebert, often referred to simply as
+            "Johan," is the central antagonist in Monsters by Naoki Urasawa.
+            Born in the aftermath of a brutal scientific experiment aimed at
+            creating the perfect human, Johan's childhood was filled with
+            psychological trauma, manipulation, and isolation. His origins lie
+            in the East German Kinderheim 511, a facility for orphaned children,
+            where the seeds of his monstrous persona were planted. The
+            experiments conducted there aimed to strip children of their
+            individuality and turn them into emotionless tools, but Johan
+            emerged as something far worse—an individual with unparalleled
+            charisma, intelligence, and a deeply unsettling understanding of the
+            human psyche.
+            <p>
+
+            </p>
+            Johan's lore is steeped in darkness, as he becomes a
+            wandering enigma, leaving a trail of manipulation, psychological
+            devastation, and death. Despite his angelic appearance, he views
+            life with a terrifying detachment, often manipulating others into
+            committing heinous acts while remaining almost invisible himself.
+            His ultimate goal is nothing less than the destruction of identity
+            itself—erasing not only his own existence but also the memory of all
+            those who cross his path. Johan is a monster born from the depths of
+            human despair, a living reflection of the fragility of morality and
+            the corruptibility of innocence.
+          </p>
+        </section>
+        <section class="item">
+          <h1 id="goals">Goals of Johan Liebert: </h1>
+          <img class="section-image" src="img\johan_goals.PNG" alt="" />
+          <ul>
+            <li>
+            Johan's primary goal is nihilistic and deeply existential. He seeks to prove
+            that life is inherently meaningless, and his acts of destruction are
+            meant to show how fragile the human mind and society are. His
+            ultimate desire is to orchestrate his own death in a way that erases
+            every trace of his existence, leaving no memory of his name, his
+            actions, or even his face. His plan often involves using others as
+            instruments of his will, turning their darkest impulses into his
+            tools for manipulation.
+            </li>
+            <br />
+            <li>
+            At the same time, Johan's goals also have a
+            more personal, tragic dimension. He is haunted by his fractured
+            past, particularly his bond with his twin sister, Anna (Nina). In
+            some ways, Johan's actions reflect a distorted attempt to reconcile
+            his identity with the trauma of their separation and the violence
+            they endured as children. His drive to erase himself from the world
+            is not only a manifestation of his destructive tendencies but also a
+            means to free himself from the weight of his past. 
+            </li>
+          </ul>
+        </section>
+        <section class="item">
+          <h1>Quote from Johan Liebert: </h1>
+          <h4>
+            <q>Look at me. The monster inside of me, it has no name. And
+              it's inside of you, too. It's inside all of us. The question is—how
+              long until it wakes up?
+            </q>
+          </h4>
+          <p>
+            This quote reflects Johan's chilling
+            philosophy that everyone harbors darkness within, and he believes
+            it's only a matter of time before it consumes them. His ability to
+            see and exploit the hidden fears and desires of others is what makes
+            him such a terrifying and complex figure. Johan's words often
+            resonate with a disturbing truth about the fragility of the human
+            psyche, as he unearths the hidden monsters within those he
+            encounters.
+          </p>
+          ―
+          <span id="quote">Johan Liebert</span>
+        </section>
+      </article>
+
+      <aside class="item">
+        <div class="container-image">
+          <img class="profile-image" src="img\johan_aside.PNG" alt="" />
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>birth</th>
+          </tr>
+          <tr>
+            <td>Johan Liebert</td>
+            <td>1975</td>
+          </tr>
+        </table>
+      </aside>
+    </main>
+
+    <script>
+      // make smooth navbar scroll
+      $('a[href^="#"]').on("click", function (event) {
+        event.preventDefault();
+
+        const target = this.hash;
+        $("html, body").animate(
+          {
+            scrollTop: $(target).offset().top,
+          },
+          800
+        );
+      });
+    </script>
+
+    <footer>This webpage was created with ❤️ by Rofiaziztr </footer>
+  </body>
+</html>

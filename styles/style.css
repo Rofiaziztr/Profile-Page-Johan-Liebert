@@ -1,0 +1,136 @@
+* {
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: #feffd2;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: bisque;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  padding: 60px 20px 0;
+  justify-content: space-between;
+}
+
+header .navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+header .navbar ul li a {
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 9999px;
+  color: red;
+}
+
+header .navbar ul li a:hover {
+  color: white;
+  background-color: #ff204e;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+article {
+  flex: 5;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 1px 3px red;
+}
+
+section {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ff204e;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+aside {
+  background-color: red;
+  flex: 1;
+  padding: 5px;
+  margin: 0 10px;
+  min-width: 250px;
+  min-height: 240px;
+  max-height: 250px;
+  border-radius: 9px;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 9px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+.section-image {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+td {
+  padding: 0 10px;
+}
+
+.container-image {
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  aside {
+    margin: 0 auto 10px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+q {
+  font-family: "Qwitcher+Grypen", sans-serif;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(69, 38, 0);
+}
